@@ -15,3 +15,6 @@ services:
         build: ./ubuntu/
         ports:
             - "3222:222"
+    ubuntu:
+        container_name: ansible
+        build: ./ansible/
