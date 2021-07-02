@@ -2,4 +2,4 @@ FROM centos:latest
 
 RUN yum install -y python38 openssh-clients https://download-ib01.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/s/sshpass-1.06-9.el8.x86_64.rpm
 RUN python3 -m pip install ansible
-ENTRYPOINT ["/usr/bin/bash"]
+CMD ["/usr/bin/bash"]
