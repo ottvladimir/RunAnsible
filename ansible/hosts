@@ -6,4 +6,4 @@ test3 ansible_host=172.19.0.5
 [all:vars]
 ansible_port=222
 ansible_ssh_pass=password
-ansible_sudo_pass=password
+ansible_become_password=password
